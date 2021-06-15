@@ -15,8 +15,8 @@ console.log("2");
 Ouput
 
 ```jsx
-2;
-1;
+2
+1
 ```
 
 This is the nature of javascript. Asynchronous code would run after all the synchronous code are executed. From the above example, setTimeout is asynchronous code which would execute its callback after console.log("2") is executed. Even the second parameter is 0 millisecond, the output is still the same.
@@ -39,17 +39,17 @@ foo(0);
 Output
 
 ```jsx
-10;
-9;
-8;
-7;
-6;
-5;
-4;
-3;
-2;
-1;
-0;
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
 ```
 
 Javascript is single threaded and blocking language. Code will be executed one by one. In the above example, foo(0) is the first statement to be called. However, foo(1) is called inside foo(0) before console.log(). So console.log() in foo(0) will not be executed until foo(1) is done excuting. The recursive function would be chained until d is not less then 10. At d = 10, the condition of the if statement could not be fulfilled and the first console.log() will be executed. So the first output would be 10, then 9 and so on.
@@ -86,7 +86,7 @@ console.log(bar(2));
 Output
 
 ```jsx
-3;
+3
 ```
 
 In the above case, the first line of code to be executed is const bar = foo(1). It would assign the executed function of foo to variable bar. At this point, the value of bar is equivalent to:
