@@ -1,3 +1,7 @@
+/**
+ * Root component for the application
+ */
+
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Logo from "share/images/Logo.svg";

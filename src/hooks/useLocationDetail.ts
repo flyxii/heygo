@@ -1,3 +1,7 @@
+/**
+ * The query to fetch the location detail
+ */
+
 import { useQuery, QueryObserverResult } from "react-query";
 
 type LocationDetail = {
@@ -5,6 +9,7 @@ type LocationDetail = {
   id: number;
   latitude: number;
   longitude: number;
+  message?: string;
 };
 
 const getLocationDetail = async (id: string) => {

@@ -1,4 +1,4 @@
 export interface Props {
   lat: number;
-  long: number;
+  lng: number;
 }

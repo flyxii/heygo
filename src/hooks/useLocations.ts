@@ -1,3 +1,7 @@
+/**
+ * The query to fetch the location list
+ */
+
 import { useQuery, QueryObserverResult } from "react-query";
 
 type Locations = {
