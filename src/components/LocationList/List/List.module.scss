@@ -1,0 +1,25 @@
+@import "share/styles/base";
+
+.wrapper {
+   width: 100%;
+  height: auto;
+  background-color: $lightGrey;
+  border-radius: 2em;
+  box-sizing: border-box;
+  padding: 2em 2.5em;
+  margin-top: 3em;
+
+  @media only screen and (min-width: $md) {
+    margin-top: 4em;
+  }
+}
+
+.location {
+  width: 100%;
+  padding: 0.5em;
+
+  a{
+    color: #000;
+    text-decoration: underline;
+  }
+}

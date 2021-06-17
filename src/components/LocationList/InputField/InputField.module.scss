@@ -1,0 +1,27 @@
+@import "share/styles/base";
+
+.wrapper {
+  width: 100%;
+  margin-top: 2em;
+  padding: 1em 0em;
+  display: flex;
+
+  @media only screen and (min-width: $lg) {
+    width: 40%;
+  }
+}
+
+.inputField {
+  font-family: "open Sans";
+  font-size: 0.8em;
+  height: 3em;
+  width: 100%;
+  background-color: $lightGrey;
+  padding: 0px 2em 0px 2em;
+  border-radius: 20px;
+  border: 0;
+
+  &:focus {
+    outline: none;
+  }
+}

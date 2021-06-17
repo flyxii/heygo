@@ -1,0 +1,20 @@
+@import "share/styles/base.scss";
+
+.wrapper {
+  box-sizing: border-box;
+  padding: 1em 2em;
+  margin-top: 1em;
+  width: 100%;
+
+  @media only screen and (min-width: $md) {
+    padding: 1em 4em;
+  }
+
+  @media only screen and (min-width: $lg) {
+    padding: 1em 4em;
+  }
+
+  @media only screen and (min-width: $xl) {
+    padding: 1em 4em;
+  }
+}
