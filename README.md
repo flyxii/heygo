@@ -1,5 +1,7 @@
 # Heygo coding challenge
 
+### Please refer to Question.md for Part 1
+
 ### Languages
 React 17.0.2
 Typescript 4.3.2
