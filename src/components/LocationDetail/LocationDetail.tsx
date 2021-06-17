@@ -28,14 +28,18 @@ const LocationDetail: React.FC = () => {
    * Display error message if fetch return error
    */
   if (error)
-    return <div className={styles.wrapper}>Error fetching data...</div>;
+    return (
+      <div className={styles.wrapper} data-testid="error">
+        Error fetching data...
+      </div>
+    );
 
   /**
    * Display loading message before fetch complete
    */
   if (isLoading)
     return (
-      <div className={styles.wrapper}>
+      <div className={styles.wrapper} data-testid="loading">
         We are working hard to get the data...
       </div>
     );
@@ -47,7 +51,7 @@ const LocationDetail: React.FC = () => {
   if (!data || data.message === "Not found") return <Redirect to="/" />;
 
   return (
-    <div className={styles.wrapper} data-testid="location-detail">
+    <div className={styles.wrapper}>
       <div className={styles.title}>{data.name}</div>
       <Map lat={data.latitude} lng={data.longitude} />
     </div>

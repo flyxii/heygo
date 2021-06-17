@@ -22,7 +22,7 @@ const Map: React.FC<Props> = (props) => {
   };
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} data-testid="map">
       <GoogleMapReact
         bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_API_KEY! }}
         defaultCenter={params.center}

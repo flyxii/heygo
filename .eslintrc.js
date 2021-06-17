@@ -35,4 +35,5 @@ module.exports = {
       version: "detect",
     },
   },
+  ignorePatterns: ["*.test.js"],
 };

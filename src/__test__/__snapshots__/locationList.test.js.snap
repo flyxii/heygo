@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LocationList /> Display error message correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper"
+    data-testid="input-field"
+  >
+    <input
+      class="inputField"
+      placeholder="Enter your query here"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    class="wrapper"
+    data-testid="error"
+  >
+    Error fetching data...
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<LocationList /> Display error message when no data return 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper"
+    data-testid="input-field"
+  >
+    <input
+      class="inputField"
+      placeholder="Enter your query here"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    class="wrapper"
+    data-testid="message-no-data"
+  >
+    No relevant locations could be found
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<LocationList /> Displays data correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper"
+    data-testid="input-field"
+  >
+    <input
+      class="inputField"
+      placeholder="Enter your query here"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    class="wrapper"
+    data-testid="location-list"
+  >
+    <div
+      class="locationList"
+    >
+      <div
+        class="location"
+      >
+        mockName
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<LocationList /> Renders without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper"
+    data-testid="input-field"
+  >
+    <input
+      class="inputField"
+      placeholder="Enter your query here"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    class="wrapper"
+    data-testid="loading"
+  >
+    We are working hard to get the data...
+  </div>
+</DocumentFragment>
+`;

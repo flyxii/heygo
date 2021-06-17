@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LocationDetail /> Display error message correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper"
+    data-testid="error"
+  >
+    Error fetching data...
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<LocationDetail /> Displays data correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="title"
+    >
+      mockName
+    </div>
+    <div
+      class="wrapper"
+      data-testid="map"
+    >
+      <div
+        style="width: 100%; height: 100%; margin: 0px; padding: 0px; position: relative;"
+      >
+        <div
+          style="width: 100%; height: 100%; left: 0px; top: 0px; margin: 0px; padding: 0px; position: absolute;"
+        />
+        <div
+          style="width: 50%; height: 50%; left: 50%; top: 50%; margin: 0px; padding: 0px; position: absolute;"
+        >
+          <div
+            style="width: 100%; height: 100%; left: 0px; top: 0px; margin: 0px; padding: 0px; position: absolute;"
+          >
+            <div
+              style="width: 0px; height: 0px; background-color: transparent; position: absolute;"
+            >
+              <div>
+                <img
+                  alt="Pins"
+                  src="Pins.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<LocationDetail /> Renders without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper"
+    data-testid="loading"
+  >
+    We are working hard to get the data...
+  </div>
+</DocumentFragment>
+`;

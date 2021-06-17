@@ -13,7 +13,7 @@ const InputField: React.FC<Props> = (props) => {
   const { placeholder, value, onChangeHandler } = props;
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} data-testid="input-field">
       <input
         type="text"
         placeholder={placeholder}
